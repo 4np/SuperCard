@@ -21,6 +21,7 @@
 		90DF765B183EAA1E0003F6E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DF763D183EAA1E0003F6E1 /* UIKit.framework */; };
 		90DF7663183EAA1E0003F6E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90DF7661183EAA1E0003F6E1 /* InfoPlist.strings */; };
 		90DF7665183EAA1E0003F6E1 /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DF7664183EAA1E0003F6E1 /* SuperCardTests.m */; };
+		90DF7670183EAACB0003F6E1 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DF766F183EAACB0003F6E1 /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		90DF7660183EAA1E0003F6E1 /* SuperCardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCardTests-Info.plist"; sourceTree = "<group>"; };
 		90DF7662183EAA1E0003F6E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90DF7664183EAA1E0003F6E1 /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+		90DF766E183EAACB0003F6E1 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		90DF766F183EAACB0003F6E1 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				90DF7648183EAA1E0003F6E1 /* AppDelegate.h */,
 				90DF7649183EAA1E0003F6E1 /* AppDelegate.m */,
 				90DF764B183EAA1E0003F6E1 /* Main.storyboard */,
+				90DF766E183EAACB0003F6E1 /* PlayingCardView.h */,
+				90DF766F183EAACB0003F6E1 /* PlayingCardView.m */,
 				90DF764E183EAA1E0003F6E1 /* ViewController.h */,
 				90DF764F183EAA1E0003F6E1 /* ViewController.m */,
 				90DF7651183EAA1E0003F6E1 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90DF7650183EAA1E0003F6E1 /* ViewController.m in Sources */,
+				90DF7670183EAACB0003F6E1 /* PlayingCardView.m in Sources */,
 				90DF764A183EAA1E0003F6E1 /* AppDelegate.m in Sources */,
 				90DF7646183EAA1E0003F6E1 /* main.m in Sources */,
 			);

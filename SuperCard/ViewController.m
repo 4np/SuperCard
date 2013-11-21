@@ -7,17 +7,30 @@
 //
 
 #import "ViewController.h"
+#import "PlayingCardView.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet PlayingCardView *playingCardView;
 @end
 
 @implementation ViewController
+
+- (IBAction)swipe:(UISwipeGestureRecognizer *)sender {
+    self.playingCardView.faceUp = !self.playingCardView.faceUp;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    // set our card to be a king of hearts
+    self.playingCardView.suit = @"♥";
+    self.playingCardView.rank = 13;
+    
+    // add a pinch gesture recognizer
+    [self.playingCardView addGestureRecognizer:[[UIPinchGestureRecognizer alloc] initWithTarget:self.playingCardView
+                                                                                         action:@selector(pinch:)]];
 }
 
 - (void)didReceiveMemoryWarning
